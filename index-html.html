@@ -1,0 +1,1958 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superkids Parenting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        .container {
+            width: 1140px;
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+    /* STYLE NAVIGATION */
+
+        .navigation .content {
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            color: white;
+            padding: 40px 10px;
+        }
+
+        .navigation .content .main {
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+        }
+
+        .navigation .content .main .header {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            margin-left: 10px;
+            height: 30px;
+            gap: 15px;
+        }
+
+        .navigation .content .main .header img  {
+            width: 48px;
+            height: 50px;
+            margin-top: -12px;
+            padding-left: 10px;
+            margin-right: 0px;
+            
+        }
+
+        .navigation .content .main .header h2 {
+            display: inline;
+            justify-content: space-around;
+            line-height: 0px;
+            margin: 10px -20px;
+            height: 150px;
+            width: 50%;
+            font-family: "Catamaran", sans-serif;
+            font-size: 48px;
+            color: white;
+        }
+        .navigation .content .main .flex-navigation h4 {
+            font-family: "Cataraman", sans-serif;
+            display: inline;
+            justify-content: space-around;
+            align-items: end;
+            line-height: 0px;
+            margin: 5px;
+            height: 150px;
+            width: 50%;
+            cursor: pointer;
+        }
+
+        .flex-navigation {
+            margin-left: 270px;
+        }
+
+        .background-navigation {
+            background: url(images/background.svg);
+            background-color: #cac6ff;
+            background-size: 50px 10px;
+            line-height: 10px;
+            text-align: center;
+            border-radius: 30px;
+            width: 100px;
+            margin: 0px auto;
+            padding: 10px;
+        }
+
+    /* STYLE HEADER */
+
+        .header .content {
+            display: flex;
+            flex-direction: row;
+            margin: 30px auto;
+            padding: 50px 30px;
+            background-color: #6100c1;
+        }
+
+        .header .content .main {
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+        }
+
+        .header .content .main .header-1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            margin-left: 10px;
+            height: 30px;
+            gap: 15px;
+        }
+
+        .header .content .main .header-1 img {
+            width: 48px;
+            height: 50px;
+            margin-top: -12px;
+            padding-left: 0px;
+            margin-right: 0px;
+            
+        }
+
+        .header .content .main .header-1 h2 {
+            display: inline;
+            justify-content: space-around;
+            line-height: 0px;
+            margin: 10px -20px;
+            height: 150px;
+            width: 50%;
+            font-family: "Catamaran", sans-serif;
+            font-size: 48px;
+            color: white;
+        }
+        .header .content .main .flex-header h4 {
+            font-family: "Cataraman", sans-serif;
+            display: inline;
+            justify-content: space-around;
+            align-items: end;
+            line-height: 0px;
+            margin: 5px;
+            height: 150px;
+            width: 50%;
+            cursor: pointer;
+        }
+
+        .flex-header {
+            color: white;
+            margin-left: 470px;
+            margin-top: -30px;
+            margin-bottom: 50px;
+        }
+
+        .header .content .main .card {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .header .content .main .card-1 {
+            display: flex;
+            flex-direction: column ;
+            justify-content: left;
+        }
+
+        .header .content .main .card-1 h5 {
+            background: url(images/background.svg);
+            background-color: #cac6ff;
+            background-size: 50px 10px;
+            font-family: "Catamaran", sans-serif;
+            color: white;
+            line-height: 10px;
+            text-align: center;
+            border-radius: 30px;
+            width: 150px;
+            margin: 30px;
+            margin-left: 30px;
+            padding: 10px;
+        }
+
+        .header .content .main .card-1 h1 {
+            color: white;
+            font-size: 70px;
+            line-height: 65px;
+            margin: 0px 20px;
+        }
+
+        .header .content .main .card-1 h4 {
+            font-family: "Lato", sans-serif;
+            font-weight: 300;
+            color: white;
+            margin: 20px;
+        }
+
+        .header .content .main .card-1 .btn-header {
+            background-color: #B2D93A;
+            border-radius: 30px;
+            width: 150px;
+            color: white;
+            text-align: center;
+            margin: 16px;
+            padding: 10px;
+        }
+
+        .header .content .main .card-2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        } 
+        
+        .header .content .main .card-2 img {
+            width: 403px;
+            margin-bottom: 50px;
+        }
+
+        .section-banner .content {
+            background-color: #222F5E;
+            color: white;
+            border-radius: 40px;
+            padding: 50px;
+        }
+
+        .section-banner .content .main   {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .section-banner .content .main .card-counter   {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section-banner .content .main .card-counter img {
+            width: 93px;
+        }
+
+        .about-us .content {
+            display: flex;
+            flex-direction: row;
+            margin: 30px auto;
+            padding: 50px 30px;
+            background-color: white;
+        }
+
+        .about-us .content .main {
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+        }
+
+        .about-us .content .main .card {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+        }
+
+        .about-us .content .main .card-1 {
+            display: flex;
+            justify-content: center;
+            margin: 75px auto;
+        }
+
+        .about-us .content .main .card-1 img {
+            width: 570px;
+        }
+
+        .about-us .content .main .card-2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+        }
+
+        .about-us .content .main .card-2 h5 {
+            background: url(images/background.svg);
+            background-color: #ffddd3;
+            background-size: 50px 10px;
+            opacity: 50%;
+            font-family: "Catamaran", sans-serif;
+            color: #FF7D56;
+            line-height: 10px;
+            text-align: center;
+            border-radius: 30px;
+            width: 100px;
+            margin-top: 145px;
+            margin-left: 0px;
+            margin-bottom: -20px;
+            padding: 10px;
+        }
+
+        .about-us .content .main .card-2 h1 {
+            color: #222F5E;
+            font-size: 50px;
+            line-height: 65px;
+        }
+
+        .about-us .content .main .card-2 h4 {
+            font-family: "Lato", sans-serif;
+            font-weight: 300;
+            color: #878799;
+            margin-top: -30px;
+            margin-right: -30px;
+        }
+
+        .span-title2 {
+            color: #FF7D56;
+        }
+
+        .about-us .content .main .card-2 .btn {
+            background-color: #FF7D56;
+            border-radius: 30px;
+            width: 150px;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 10px;
+        }
+
+        .knowledge-base .content {
+            display: flex;
+            flex-direction: row;
+            margin: 30px auto;
+            padding: 50px 30px;
+            background-color: white;
+        }
+
+        .knowledge-base .content .main {
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+        }
+
+        .knowledge-base .content .main .card {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+        }
+
+        .knowledge-base .content .main .card-1 {
+            margin-top: 75px;
+            margin-right: 80px;
+        }
+
+        .knowledge-base .content .main .card-1 h5 {
+            background: url(images/background.svg);
+            background-color: #cac6ff;
+            background-size: 50px 10px;
+            font-family: "Catamaran", sans-serif;
+            color: #6100c1;
+            line-height: 10px;
+            text-align: center;
+            border-radius: 30px;
+            width: 150px;
+            margin: 30px;
+            margin-left: 30px;
+            padding: 10px;
+        }
+
+        .knowledge-base .content .main .card-1 h1 {
+            color: #222F5E;
+            font-size: 70px;
+            line-height: 65px;
+            margin: 0px 20px;
+        }
+
+        .title-span {
+            color: #6100C1;
+        }
+
+        .knowledge-base .content .main .card-1 h4 {
+            font-family: "Lato", sans-serif;
+            font-weight: 300;
+            color: #878799;
+            margin: 20px;
+        }
+
+        .knowledge-base .content .main .card-1 .btn {
+            background-color: #622DB6;
+            border-radius: 30px;
+            width: 150px;
+            color: white;
+            text-align: center;
+            margin: 16px;
+            padding: 10px;
+        }
+
+        .knowledge-base .content .main .card-2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        } 
+        
+        .knowledge-base .content .main .card-2 img {
+            width: 570px;
+            margin-bottom: 50px;
+        }
+        
+        .features .content {
+            background-color: white;
+            border-radius: 40px;
+            padding: 50px;
+        }
+        
+        .features .content .main {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .features .content .main .wrap-card {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .features .content .main .card-feature {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .features .content .main .header {
+            color: #222F5E;
+        }
+
+        .features .content .main .card-feature img {
+            width: 50px;
+            cursor: pointer;
+        }
+
+        .features .content .main .dropdown {
+            margin: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-family: "Catamaran", sans-serif;
+            font-size: 87px;
+            font-weight: bold;
+        }
+
+        .features .content .main .header h2 {
+            font-family: "Catamaran", sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        h4 {
+            font-family: "Catamaran", sans-serif;
+        }
+
+        .benefit .content {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0px 20px;
+        }
+
+        .benefit .content .main {
+            background-color: white;
+            margin: 50px;
+            padding: 50px;
+        }
+
+        .benefit .content .main .header {
+            background-color:#e9faff;
+            color: #6ED2EF;
+            border-radius: 30px;
+            font-family: "Catamaran", sans-serif;
+            font-size: 18px;
+            text-align: center;
+            width: 75px;
+            margin-left: 30px;
+        }
+
+        .benefit .content .main .card-head {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+
+        .benefit .content .main .card-head .title {
+            font-family: "Catamaran", sans-serif;
+            font-size: 48px;
+            color: #222F5E;
+            width: 1000px;
+            padding: 0px 30px;
+            margin: 0px auto;
+            margin-left: auto;
+        }
+
+        .benefit .content .main .card-head .title .span-title {
+            color: #6ED2EF;
+        }
+
+        .benefit .content .main .card-head h6 {
+            font-family: "Catamaran", sans-serif;
+            font-size: 16px;
+            font-weight: 200;
+            color: #222F5E;
+            margin: auto;
+        }
+
+        .benefit .content .main .wrap-card {
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin:     50px;
+        }
+
+        .benefit .content .main .wrap-card .wrap-card-team-1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .benefit .content .main .wrap-card .wrap-card-team-1 .card {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 50px;
+        }
+
+        .benefit .content .main .wrap-card .wrap-card-team-1 .card .main-card {
+            width: 200px;
+            text-align: left;
+            margin: 0px auto;
+        }
+
+        .benefit .content .main .wrap-card .wrap-card-team-1 .card .main-card .title {
+            font-family: "Catamaran", sans-serif;
+            font-size: 24px;
+            text-align: left;
+            color: #222F5E;
+            width: 230px;
+            margin: 0px;
+        }
+
+        .benefit .content .main .wrap-card .wrap-card-team-1 .card .main-card .text {
+            font-family: "Catamaran", sans-serif;
+            font-size: 13px;
+            font: 200;
+            color: #222F5E;
+            margin: auto;
+        }
+
+        .benefit .content .main .wrap-card .wrap-card-team-2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .benefit .content .main .wrap-card .wrap-card-team-2 .card {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 50px;
+        }
+
+        .benefit .content .main .wrap-card .wrap-card-team-2 .card .main-card {
+            width: 200px;
+            text-align: left;
+            margin: 0px auto;
+        }
+
+        .benefit .content .main .wrap-card .wrap-card-team-2 .card .main-card .title {
+            font-family: "Catamaran", sans-serif;
+            font-size: 24px;
+            text-align: left;
+            color: #222F5E;
+            width: 230px;
+            margin: 0px;
+        }
+
+        .benefit .content .main .wrap-card .wrap-card-team-2 .card .main-card .text {
+            font-family: "Catamaran", sans-serif;
+            font-size: 13px;
+            font: 300;
+            color: #222F5E;
+            margin: auto;
+        }
+
+        .benefit .content .main .wrap-card .wrap-card-team-3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .benefit .content .main .wrap-card .wrap-card-team-3 .card {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 50px;
+        }
+
+        .benefit .content .main .wrap-card .wrap-card-team-3 .card .main-card {
+            width: 200px;
+            text-align: left;
+            margin: 0px auto;
+        }
+
+        .benefit .content .main .wrap-card .wrap-card-team-3 .card .main-card .title {
+            font-family: "Catamaran", sans-serif;
+            font-size: 24px;
+            text-align: left;
+            color: #222F5E;
+            width: 230px;
+            margin: 0px;
+        }
+
+        .benefit .content .main .wrap-card .wrap-card-team-3 .card .main-card .text {
+            font-family: "Catamaran", sans-serif;
+            font-size: 13px;
+            font: 200;
+            color: #222F5E;
+            margin: auto;
+        }
+
+        .banner-enroll .content {
+            background-color: #222F5E;
+            border-radius: 40px;
+            line-height: 0;
+            margin: 40px 150px;
+            padding: 0;
+        }
+
+        .banner-enroll .content .main h2 {
+            font-family: "Cataraman", sans-serif;
+            color: white;
+            text-align: center;
+            line-height: 10px;
+        }
+
+        .banner-enroll .content .main .paragraph {
+            line-height: 0;
+            padding: 0%;
+            margin: 0;
+        }
+
+        .banner-enroll .content .main {
+            text-align: center;
+            display: flex;
+            margin: 40px 100px;
+            padding: 20px;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .banner-enroll .content .main .button {
+            width: 120px;
+            line-height: 10px;
+            background-color: #FF7D56;
+            color: white;
+            border: thin;
+            border-radius: 40px;
+            margin: 10px auto 10px;
+            display: inline-block;
+            justify-content: center;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .blogs .content {
+            background-color: white;
+            color: #222F5E;
+            margin: 70px auto;
+        }
+
+        .blogs .content .main .header h4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .background-blogs {
+            background: url(images/background.svg);
+            background-color: #cac6ff;
+            background-size: 10px 20px;
+            line-height: 10px;
+            text-align: center;
+            border-radius: 30px;
+            width: 50px;
+            margin: 0px auto;
+            padding: 10px;
+        }
+
+        .blogs .content .main .header h2 {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-family: "Cataraman", sans-serif;
+            color: #222F5E;
+        }
+
+        .header-h2 {
+            color: #622DB6;
+        }
+
+        .blogs .content .main .wrap-card-1 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .blogs .content .main .wrap-card-2 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .blogs .content .main .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .blogs .content .main .card img {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 270px;
+            margin: 10px auto;
+        }
+
+        .blogs .content .main .wrap-card-1 h3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+
+        .blogs .content .main .wrap-card-2 h3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+
+        .card-blogs-red {
+            background-color: #FF7D56;
+            border-radius: 30px;
+            font-family: "Catamaran", sans-serif;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 20px;
+            width: 50px;
+            margin: 8px;
+            padding: 3px;
+        }
+
+        .card-blogs-orange {
+            background-color: #FDCF3F;
+            border-radius: 30px;
+            font-family: "Catamaran", sans-serif;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 20px;
+            width: 65px;
+            margin: 8px;
+            padding: 3px;
+        }
+
+        .card-blogs-lightblue {
+            background-color: #6ED2EF;
+            border-radius: 30px;
+            font-family: "Catamaran", sans-serif;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 20px;
+            margin: 8px;
+            padding: 3px;
+        }
+
+        .blogs .content .main .wrap-card-1 .card-blogs-lightblue {
+            width: 85px;
+        }
+
+        .blogs .content .main .wrap-card-2 .card-blogs-lightblue {
+            width: 50px;
+        }
+
+        .card-blogs-green {
+            background-color: #B2D93A;
+            border-radius: 30px;
+            font-family: "Catamaran", sans-serif;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 20px;
+            width: 50px;
+            margin: 8px;
+            padding: 3px;
+        }
+
+        .card-blogs-purple {
+            background-color: #6100C1;
+            border-radius: 30px;
+            font-family: "Cataraman", sans-serif;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 20px;
+            width: 50px;
+            margin: 8px;
+            padding: 3px;
+        }
+
+        .card-blogs-blue {
+            background-color: #4F94FB;
+            border-radius: 30px;
+            font-family: "Cataraman", sans-serif;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 20px;
+            width: 50px;
+            margin: 8px;
+            padding: 3px;
+        }
+
+        .card-blogs-blue-1 {
+            background-color: #4F94FB;
+            border-radius: 30px;
+            font-family: "Cataraman", sans-serif;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 20px;
+            width: 85px;
+            margin: 8px;
+            padding: 3px;
+        }
+
+        .blogs .content .main .wrap-card-1 .title {
+            font-family: "Catamaran", sans-serif;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 34px;
+            color: #222F5E;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            margin: 8px;
+        }
+
+        .blogs .content .main .wrap-card-1 .text {
+            font-family: "Catamaran", sans-serif;
+            font-weight: 200;
+            font-size: 14px;
+            color: #878799;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            margin: 8px;
+        }
+
+        .blogs .content .main .wrap-card-2 .title {
+            font-family: "Catamaran", sans-serif;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 34px;
+            color: #222F5E;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            margin: 8px;
+        }
+
+        .blogs .content .main .wrap-card-2 .text {
+            font-family: "Catamaran", sans-serif;
+            font-weight: 200;
+            font-size: 14px;
+            color: #878799;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            margin: 8px;
+        }
+
+        .blogs .content .main .footer {
+            display: flex;
+            justify-content: center;
+        }
+
+        .blogs .content .main .footer button {
+            background-color: white;
+            border-radius: 30px;
+            font-family: "Catamaran", sans-serif;
+            font-size: 18px;
+            color: #6ED2EF;
+            margin-top: 50px;
+            padding: 10px 20px;
+        }
+
+        .team-member .content {
+            background-color: white;
+            margin: auto;
+        }
+
+        .background-team-member {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            background-color: #6ed3ef76;
+            opacity: 0.3;
+            border-radius: 130px;
+            width: 150px;
+            margin: 5% auto 0px;
+            padding: 5px 20px;
+        }
+
+        .team-member .content .main .header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            font-family: "Catamaran", sans-serif;
+            color: #222F5E;
+        }
+
+        .team-member .content .main .header .background-team-member {
+            color: #00c8ff;
+        }
+
+        .team-member .content .main .header .header-h2-team {
+            color: #6ED2EF;
+        }
+        
+        .team-member .content .main .button {
+            background-color: #d8eef4;
+            color: #222F5E;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            text-align: center;
+            align-items: center;
+            border-radius: 30px;
+            font-family: "Cataraman", sans-serif;
+            margin: 0px 250px;
+            padding: 5px;
+            height: 45px;
+        }
+
+        .btn-1 {
+            width: 130px;
+        }
+
+        .btn-2 {
+            width: 130px;
+        }
+
+        .btn-3 {
+            width: 130px;
+        }
+
+        .btn-4 {
+            width: 130px;
+        }
+
+        .team-member .content .main .button .btn-1:hover {
+            background-color: #6ED2EF;
+            background-size: 100px;
+            color: white;
+        }
+
+        .team-member .content .main .button .btn-2:hover {
+            background-color: #6ED2EF;
+            background-size: 100px;
+            color: white;
+        }
+
+        .team-member .content .main .button .btn-3:hover {
+            background-color: #6ED2EF;
+            background-size: 100px;
+            color: white;
+        }
+
+        .team-member .content .main .button .btn-4:hover {
+            background-color: #6ED2EF;
+            background-size: 100px;
+            color: white;
+        }
+
+        .team-member .content .main .button button {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            text-align: center;
+            background-color: #d8eef4;
+            background-size: auto;
+            color: black;
+            margin: 0px 20px;
+            padding: 10px;
+            border-radius: 30px;
+            border: none;
+        }
+
+        .team-member h2 {
+            font-size: 48px;
+        }
+
+        .team-member .content .main .wrap-card {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: auto;
+        }
+
+        .team-member .content .main .wrap-card-team-1   {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .team-member .content .main .wrap-card-team-1  .card  img {
+            display: grid;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            margin: 20px;
+        }
+
+        .team-member .content .main .wrap-card-team-1 .card {
+            background-color: white;
+            background-size: auto;
+            display: flex;
+            flex-direction: row;
+            text-align: left;
+            width: 300px;
+            margin: 20px auto;
+            padding: 10px 5px;
+        }
+
+        .team-member .content .main .wrap-card-team-1 .card .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            margin: 30px auto 0px;
+        }
+
+        .team-member .content .main .wrap-card-team-1  .card .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            font-family: "Catamaran", sans-serif;
+            margin: 10px auto 30px;
+        }
+
+        .team-member .content .main .wrap-card-team-2   {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .team-member .content .main .wrap-card-team-2  .card  img {
+            display: grid;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            margin: 20px;
+        }
+
+        .team-member .content .main .wrap-card-team-2 .card {
+            background-color: white;
+            background-size: auto;
+            display: flex;
+            flex-direction: row;
+            text-align: left;
+            width: 300px;
+            margin: 20px auto;
+            padding: 10px 5px;
+        }
+
+        .team-member .content .main .wrap-card-team-2 .card .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            margin: 30px auto 0px;
+        }
+
+        .team-member .content .main .wrap-card-team-2  .card .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            font-family: "Catamaran", sans-serif;
+            margin: 10px auto 30px;
+            }
+
+        .team-member .content .main .wrap-card-team-3   {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .team-member .content .main .wrap-card-team-3  .card  img {
+            display: grid;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            margin: 20px;
+        }
+
+        .team-member .content .main .wrap-card-team-3 .card {
+            background-color: white;
+            background-size: auto;
+            display: flex;
+            flex-direction: row;
+            text-align: left;
+            width: 300px;
+            margin: 20px auto;
+            padding: 10px 5px;
+        }
+
+        .team-member .content .main .wrap-card-team-3 .card .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            margin: 30px auto 0px;
+        }
+
+        .team-member .content .main .wrap-card-team-3  .card .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            font-family: "Catamaran", sans-serif;
+            margin: 10px auto 30px;
+        }
+
+        .team-member .content .main .card h4 {
+            color: #222F5E;
+        }
+
+        .art {
+            color: #B2D93A;
+        }
+
+        .literacy {
+            color: #FF7D56;
+        }
+
+        .active {
+            color: #6100C1;
+        }
+
+        .preschool {
+            color: #6ED2EF;
+        }
+
+        .testimonials .content {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            margin: 50px;
+        }
+
+        .testimonials .content .main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+        }
+
+        .testimonials .content .main .header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            font-family: "Catamaran", sans-serif;
+            color: #222F5E;
+        }
+
+        .testimonials .content .main .header .head {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            background: url(images/background.svg);
+            background-color: #ffddd3;
+            opacity: 50%;
+            border-radius: 30px;
+            width: 100px;
+            color: #FF7D56  ;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        .testimonials .content .main .header .title {
+            font-family: "Cataraman", sans-serif;
+            color: #222F5E;
+            font-size: 48px;
+            margin-top: 16px;
+        }
+
+        .span-title {
+            color: #FF7D56;
+        }
+
+        .testimonials .content .main .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: auto;
+        }
+
+        .testimonials .content .main .card .wrap-card-1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: 30px auto 0px;
+        }
+
+        .testimonials .content .main .card .wrap-card-1 .card-1 {
+            background-color: #FF7D56;
+            color: white;
+            font-family: "Lato", sans-serif;
+            font-size: 20px;
+            border-radius: 30px;
+            background-size: 150px;
+            text-align: left;
+            width: 270px;
+            padding: 25px;
+            margin: 0px 35px;
+        }
+    
+        .testimonials .content .main .card .wrap-card-1 .card-2 {
+            background-color: #6ED2EF;
+            color: white;
+            font-family: "Lato", sans-serif;
+            font-size: 20px;
+            border-radius: 30px;
+            background-size: 150px;
+            text-align: left;
+            width: 270px;
+            padding: 25px;
+            margin: 0px 35px;
+        }
+
+        .testimonials .content .main .card .wrap-card-1 .card-3 {
+            background-color: #FDCF3F;
+            color: white;
+            font-family: "Lato", sans-serif;
+            font-size: 20px;
+            border-radius: 30px;
+            background-size: 150px;
+            text-align: left;
+            width: 270px;
+            padding: 25px;
+            margin: 0px 35px;
+        }
+
+        .testimonials .content .main .card .wrap-card-2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: 30px 0px;
+        }
+
+        .testimonials .content .main .card .wrap-card-2 .card-1 {
+            background-color: white;
+            background-size: auto;
+            justify-content: space-around;
+            text-align: left;
+            width: 30px;
+            margin: 20px auto;
+            padding: 10px 5px;
+        }
+
+        .testimonials .content .main .card .wrap-card-2 .card-wrap-1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: auto;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .testimonials .content .main .card .wrap-card-2 .card-wrap-2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: auto;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .testimonials .content .main .card .wrap-card-2 .card-wrap-3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: auto;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .testimonials .content .main .card .wrap-card-2 .card-1 img {
+            width: 80px;
+            justify-content: left;
+        }
+
+        .testimonials .content .main .card .wrap-card-2 .title {
+            color: #222F5E;
+            margin: 30px auto 0px;
+            
+        }
+
+        .testimonials .content .main .card .wrap-card-2 .text {
+            color: #222F5E;
+            font-family: "Catamaran", sans-serif;
+            margin: 10px auto 30px;
+        }
+
+        .bottom-navigation .content {
+            background-color: white;
+            display: flex;
+        }
+
+        .bottom-navigation .content .main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 50px;
+        }
+
+        .bottom-navigation .content .main .header .header-1 {
+            display: flex;
+            flex-direction: row;
+            margin: 0px;
+        }
+
+        .bottom-navigation .content .main .header img {
+            width: 48px;
+            height: 50px;
+            margin-top: 12px;
+            padding-left: 10px;
+            margin-right: 0px;   
+        }
+
+        .bottom-navigation .content .main .header h2 {
+            display: inline;
+            justify-content: space-around;
+            line-height: 0px;
+            width: 50%;
+            font-family: "Catamaran", sans-serif;
+            font-size: 48px;
+            color: #222F5E;
+        }
+
+        .bottom-navigation .content .main .header .text-header {
+            font-size: 14px;
+            color: #878799;
+            margin: 0px 20px;
+            width: 270px;
+        }
+
+        .bottom-navigation .content .main .wrap-card {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .bottom-navigation .content .main .wrap-card .title {
+            color: #222F5E;
+            font-size: 22px;
+            text-align: left;
+        }
+
+        .bottom-navigation .content .main .wrap-card .text {
+            color: #878799;
+            font-size: 14px;
+            font-size: small;
+        }
+
+        .bottom-navigation .content .main .wrap-card .card-1 {
+            width: 220px;
+        }
+
+        .bottom-navigation .content .main .wrap-card .card-2 {
+            width: 220px;
+        }
+
+        .bottom-navigation .content .main .wrap-card .card-3 {
+            width: 220px;
+        }
+
+        .bottom-navigation .content .main .wrap-card .card-4 {
+            width: 220px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <section class="navigation">
+        <div class="container">
+            <div class="content">
+                <div class="main">
+                    <div class="header">
+                        <img src="images/logo.svg" alt="">
+                        <h2 class="title">uperkids</h2>
+                    </div>
+                    <div class="flex-navigation">
+                        <h4 class="title">About</h4>
+                        <h4 class="title">Program</h4>
+                        <h4 class="title">Admission</h4>
+                        <h4 class="title">Parent</h4>
+                        <h4 class="title">Location</h4>
+                        <h4 class="title">|</h4>
+                        <h4 class="title">Register</h4>
+                        <h4 class="title"><span class="background-navigation">Contact Us</span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="header">
+        <div class="container">
+            <div class="content">
+                <div class="main">
+                    <div class="header">
+                        <div class="header-1">
+                            <img src="images/logo.svg" alt="">
+                            <h2 class="title">uperkids</h2>
+                        </div>
+                        <div class="flex-header">
+                            <h4 class="title">About</h4>
+                            <h4 class="title">Program</h4>
+                            <h4 class="title">Admission</h4>
+                            <h4 class="title">Parent</h4>
+                            <h4 class="title">Location</h4>
+                            <h4 class="title">|</h4>
+                            <h4 class="title">Register</h4>
+                            <h4 class="title"><span class="background-navigation">Contact Us</span></h4>
+                        </div>
+                        <div class="card">
+                            <div class="card-1">
+                                <h5 class="head">Welcome to Superkids</h5>
+                                <h1 class="title">Be a Super parents for your superkids</h1>
+                                <h4 class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam</h4>
+                                <button class="btn-header">Enroll My Child</button>
+                            </div>
+                            <div class="card-2">
+                                <img src="images/hero-header.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="content">
+                <div class="main">
+                    <div class="header">
+                        <h2>What we offer</h2>
+                    </div>
+                    <div class="wrap-card">
+                        <div class="card-feature">
+                            <img src="images/ic-music.svg" alt="">
+                            <h4 class="title">Music</h4>
+                        </div>
+                        <div class="card-feature">
+                            <img src="images/ic-fashion.svg" alt="">
+                            <h4 class="title">Fashion</h4>
+                        </div>
+                        <div class="card-feature">
+                            <img src="images/ic-sports.svg" alt="">
+                            <h4 class="title">Sport</h4>
+                        </div>
+                        <div class="card-feature">
+                            <img src="images/ic-craft.svg" alt="">
+                            <h4 class="title">Craft</h4>
+                        </div>
+                        <div class="card-feature">
+                            <img src="images/ic-health.svg" alt="">
+                            <h4 class="title">Health</h4>
+                        </div>
+                        <div class="card-feature">
+                            <img src="images/ic-food.svg" alt="">
+                            <h4 class="title">Food</h4>
+                        </div>
+                        <div class="card-feature">
+                            <img src="images/ic-education.svg" alt="">
+                            <h4 class="title">Education</h4>
+                        </div>
+                        <div class="card-feature">
+                            <img src="images/ic-toys.svg" alt="">
+                            <h4 class="title">Toys</h4>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <img src="images/ic-dropdown.svg" alt="">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefit">
+        <div class="container">
+            <div class="content">
+                <div class="main">
+                    <div class="header">
+                        <h5 class="head">Benefits</h5>
+                    </div>
+                    <div class="card-head">
+                        <h2 class="title"><span class="span-title">Why choose us</span> for your happier kids</h2>
+                        <h6>Look into the eyes of a young child and see the sparkle and wonder. Develop these passions and watch the adult bloom into someone special. At Littledino Center, we work every day to build the foundations for amazing futures.</h6>
+                    </div>
+                    <div class="wrap-card">
+                        <div class="wrap-card-team-1">
+                            <div class="card">
+                                <img src="images/ben-experience.svg" alt="">
+                                <div class="main-card">
+                                    <h4 class="title">Experience Teacher</h4>
+                                    <h6 class="text">Look into the eyes of a young child and see the sparkle</h6>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/ben-physical-aspect.svg" alt="">
+                                <div class="main-card">
+                                    <h4 class="title">Physical aspect</h4>
+                                    <h6 class="text">A child goes through various physical development</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap-card-team-2">
+                            <div class="card">
+                                <img src="images/ben-backpack.svg" alt="">
+                                <div class="main-card">
+                                    <h4 class="title">Learning and skills</h4>
+                                    <h6 class="text">Quality learning outcomes and skills development.</h6> 
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/ben-mental.svg" alt="">
+                                <div class="main-card">
+                                    <h4 class="title">Mental aspect</h4>
+                                    <h6 class="text">School is the foremost fountain of knowledge</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap-card-team-3">
+                            <div class="card">
+                                <img src="images/ben-emergencies.svg" alt="">
+                                <div class="main-card">
+                                    <h4 class="title">Emergencies Context</h4>
+                                    <h6 class="text">Improved learning and protection for children in</h6>     
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/ben-social-aspect.svg" alt="">
+                                <div class="main-card">
+                                    <h4 class="title">Social aspect</h4>
+                                    <h6 class="text">School is the first avenue of socialising for a child</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-banner">
+        <div class="container">
+            <div class="content">
+                <div class="main">
+                    <div class="card-counter">
+                        <img src="images/counter.svg" alt="">
+                        <h4 class="title">Total Groups</h4>
+                    </div>
+                    <div class="card-counter">
+                        <img src="images/qualified.svg" alt="">
+                        <h4 class="title">Qualified Teacher</h4>
+                    </div>
+                    <div class="card-counter">
+                        <img src="images/years.svg" alt="">
+                        <h4 class="title">Years of Experience</h4>
+                    </div>
+                    <div class="card-counter">
+                        <img src="images/student.svg" alt="">
+                        <h4 class="title">Students Enrolled</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="container">
+            <div class="content">
+                <div class="main">
+                    <div class="card">
+                        <div class="card-1">
+                            <img src="images/img-about.svg" alt="">
+                        </div>
+                        <div class="card-2">
+                            <h5 class="head">About Us</h5>
+                            <h1 class="title">Hey ! Here is A little about <span class="span-title2">Our Storries</span></h1>
+                            <h4 class="text">We are excited and pleased to introduce you to the wonderful, passionate and committed educators who are working at Skole Learning Centre. Please take a moment to meet “Our Family!” We invited each of them to describe why they love working with children</h4>
+                            <button class="btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="knowledge-base">
+        <div class="container">
+            <div class="content">
+                <div class="main">
+                    <div class="card">
+                        <div class="card-1">
+                            <h5 class="head">Knowledge Base</h5>
+                            <h1 class="title">Why <span class="title-span">Early Education</span> Matters</h1>
+                            <h4 class="text">of developing these in young children is a combination of free and structured play, in beautiful and engaging preschool learning environments, and a program that constantly develops their minds across multiple areas. We know that children develop at different rates across different areas.</h4>
+                            <button class="btn">Read More</button>
+                        </div>
+                        <div class="card-2">
+                            <img src="images/img-knowledge.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-member">
+        <div class="container">
+            <div class="content">
+                <div class="main">
+                    <div class="header">
+                        <h4><span class="background-team-member">Our Team Member</span></h4>
+                        <h2>Meet with&nbsp;<span class="header-h2-team">Our Best Trainer</span></h2>
+                    </div>
+                    <div class="button">
+                        <button class="btn-1">All</button>
+                        <button class="btn-2">Library</button>
+                        <button class="btn-3">Active Learning</button>
+                        <button class="btn-4">Art and Music</button>
+                    </div>
+                    <div class="wrap-card">
+                        <div class="wrap-card-team-1">
+                            <div class="card">
+                                <img src="images/ic-ellipse.svg" alt="">
+                                <div class="main-card">
+                                    <h4 class="title">Darrell Steward</h4>
+                                    <h6 class="text"><span class="literacy">Literacy Teacher</span></h6>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/ic-ellipse.svg" alt="">
+                                <div class="main-card">
+                                    <h4 class="title">Jerome Bell</h4>
+                                    <h6 class="text"><span class="art">Art and Music Teacher</span></h6>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/ic-ellipse.svg" alt="">
+                                <div class="main-card">
+                                    <h4 class="title">Leslie Alexander</h4>
+                                    <h6 class="text"><span class="art">Art and Music Teacher</span></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap-card-team-2">
+                            <div class="card">
+                                <img src="images/ic-ellipse.svg" alt="">
+                                <div class="main-card">
+                                    <h4 class="title">Annette Black</h4>
+                                    <h6 class="text"><span class="active">Active Learning Teacher</span></h6>
+                                   
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/ic-ellipse.svg" alt="">
+                                <div class="main-card">
+                                    <h4 class="title">Cameron Williamson</h4>
+                                    <h6 class="text"><span class="literacy">Literacy Teacher</span></h6>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/ic-ellipse.svg" alt="">
+                                <div class="main-card">
+                                    <h4 class="title">Kathlyn Murphy</h4>
+                                    <h6 class="text"><span class="literacy">Literacy Teacher</span></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap-card-team-3">
+                            <div class="card">
+                                <img src="images/ic-ellipse.svg" alt="">
+                                <div class="main-card">
+                                    <h4 class="title">Guy Hawkins</h4>
+                                    <h6 class="text"><span class="preschool">Preschool Teach></h6>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/ic-ellipse.svg" alt="">
+                                <div class="main-card">
+                                    <h4 class="title">Jane Cooper</h4>
+                                    <h6 class="text"><span class="active">Active Learning Teacher</span></h6>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/ic-ellipse.svg" alt="">
+                                <div class="main-card">
+                                    <h4 class="title">Esther Howard</h4>
+                                    <h6 class="text"><span class="active">Active Learning Teacher</span></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="content">
+                <div class="main">
+                    <div class="header">
+                        <h5 class="head">Testimonial</h5>
+                        <h2 class="title">What’s parent <span class="span-title">Say About Us</span></h2>
+                    </div>
+                    <div class="card">
+                        <div class="wrap-card-1">
+                            <div class="card-1">
+                                <h5><span class="background">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim.</span></h5>
+                            </div>
+                            <div class="card-2">
+                                <h5><span class="background">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim.</span></h5>
+                            </div>
+                            <div class="card-3">
+                                <h5><span class="background">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim.</span></h5>
+                            </div>
+                        </div>
+                        <div class="wrap-card-2">
+                            <div class="card-wrap-1">
+                                <div class="card">
+                                    <img src="images/ic-ellipse.svg" alt="">
+                                </div>
+                                <div class="main-card">
+                                    <h4 class="title">Ronald Richards</h4>
+                                    <h6 class="text">Mom of 2 kids</h6>
+                                </div>
+                            </div>
+                            <div class="card-wrap-2">
+                                <div class="card-2">
+                                    <img src="images/ic-ellipse.svg" alt="">
+                                </div>
+                                <div class="main-card">
+                                    <h4 class="title">Wade Warren</h4>
+                                    <h6 class="text">Dad of 4 kids</h6>
+                                </div>
+                            </div>
+                            <div class="card-wrap-3">
+                                <div class="card-3">
+                                    <img src="images/ic-ellipse.svg" alt="">
+                                </div>
+                                <div class="main-card">
+                                    <h4 class="title">Arlene McCoy</h4>
+                                    <h6 class="text">Mom of 1 kids</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner-enroll">
+        <div class="container">
+            <div class="content">
+                <div class="main">
+                    <div class="paragraph">
+                        <p><h2>Enroll Your Child Now!</h2></p>
+                        <p><h2>Call Us (302) 555-0107 or</h2></p>
+                    </div>
+                    <div class="button">
+                        <h4 class="title">Enroll Online</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blogs">
+        <div class="container">
+            <div class="content">
+                <div class="main">
+                    <div class="header">
+                        <h4><span class="background-blogs">Blog</span></h4>
+                        <h2><span class="header-h2">Our Latest&nbsp;</span>Articles</h2>
+                    </div>
+                    <div class="wrap-card-1">
+                        <div class="card">
+                            <img src="images/thumbnail.svg" alt="">
+                            <h5 class="card-blogs-red">Music</h5>
+                            <h3 class="title">The effect of honey on human health</h3>
+                            <h4 class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</h4>
+                        </div>
+                        <div class="card">
+                            <img src="images/thumbnail.svg" alt="">
+                            <h5 class="card-blogs-orange">Fashion</h5>
+                            <h3 class="title">5 Surprising Benefits of Honey Milk</h3>
+                            <h4 class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</h4>
+                        </div>
+                        <div class="card">
+                            <img src="images/thumbnail.svg" alt="">
+                            <h5 class="card-blogs-lightblue">Martial Arts</h5>
+                            <h3 class="title">9 Surprising Benefits of Honey Milk</h3>
+                            <h4 class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</h4>
+                        </div>
+                        <div class="card">
+                            <img src="images/thumbnail.svg" alt="">
+                            <h5 class="card-blogs-green">Sports</h5>
+                            <h3 class="title">Health Benefits of Honey and Milk</h3>
+                            <h4 class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</h4>
+                        </div>
+                    </div>
+
+                    <div class="wrap-card-2">
+                        <div class="card">
+                            <img src="images/thumbnail.svg" alt="">
+                            <h5 class="card-blogs-purple">Craft</h5>
+                            <h3 class="title">The effect of honey on human health</h3>
+                            <h4 class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</h4>
+                        </div>
+                        <div class="card">
+                            <img src="images/thumbnail.svg" alt="">
+                            <h5 class="card-blogs-lightblue">Health</h5>
+                            <h3 class="title">5 Surprising Benefits of Honey Milk</h3>
+                            <h4 class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</h4>
+                        </div>
+                        <div class="card">
+                            <img src="images/thumbnail.svg" alt="">
+                            <h5 class="card-blogs-blue">Food</h5>
+                            <h3 class="title">9 Surprising Benefits of Honey Milk</h3>
+                            <h4 class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</h4>
+                        </div>
+                        <div class="card">
+                            <img src="images/thumbnail.svg" alt="">
+                            <h5 class="card-blogs-blue-1">Education</h5>
+                            <h3 class="title">Health Benefits of Honey and Milk</h3>
+                            <h4 class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</h4>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <button class="button-blogs">View More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bottom-navigation">
+        <div class="container">
+            <div class="content">
+                <div class="main">
+                    <div class="header">
+                        <div class="header-1">
+                            <img src="images/logo.svg" alt="">
+                            <h2 class="title">uperkids</h2>
+                        </div>
+                        <div class="text-header">
+                            <h4 class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
+                        </div>
+                    </div>
+                    <div class="wrap-card">
+                        <div class="card-1">
+                            <h4 class="title">Home</h4>
+                            <h4 class="text">Home</h4>
+                            <h4 class="text">Services</h4>
+                            <h4 class="text">Blog</h4>
+                            <h4 class="text">Offers</h4>
+                            <h4 class="text">Pricing</h4>
+                        </div>
+                        <div class="card-2">
+                            <h4 class="title">Services</h4>
+                            <h4 class="text">Homecare</h4>
+                            <h4 class="text">Kidszone</h4>
+                            <h4 class="text">Kidsplay</h4>
+                        </div>
+                        <div class="card-3">
+                            <h4 class="title">About</h4>
+                            <h4 class="text">Company</h4>
+                            <h4 class="text">Legal</h4>
+                            <h4 class="text">Terms and Conditions</h4>
+                        </div>
+                        <div class="card-4">
+                            <h4 class="title">Social Media</h4>
+                            <h4 class="text">Facebook</h4>
+                            <h4 class="text">Twitter</h4>
+                            <h4 class="text">YouTube</h4>
+                            <h4 class="text">Instagram</h4>
+                            <h4 class="text">LinkedIn</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
